@@ -1,0 +1,155 @@
+fileFormatVersion: 2
+guid: 4fd84346c406bb748810aec9280aa776
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: PB_LD_CastleIsland_DecoMesh_001_Start
+    100004: PB_LD_CastleIsland_DecoMesh_002_InteriorLeft
+    100006: PB_LD_CastleIsland_DecoMesh_003_ExteriorTowerLeft
+    100008: PB_LD_CastleIsland_DecoMesh_004_UpstairsLeft
+    100010: PB_LD_CastleIsland_DecoMesh_005_BackGarden
+    100012: PB_LD_CastleIsland_DecoMesh_006_BackGround
+    100014: PB_LD_CastleIsland_DecoMesh_007_Bridge
+    100016: PB_LD_CastleIsland_DecoMesh_008_UpstairsRight
+    100018: PB_LD_CastleIsland_DecoMesh_009_ExteriorTowerRight
+    100020: PB_LD_CastleIsland_DecoMesh_010_InteriorRight
+    100022: PB_LD_CastleIsland_DecoMesh_011_Ruins
+    100024: PB_LD_CastleIsland_DecoMesh_012_End
+    100026: Camera_target
+    400000: //RootNode
+    400002: PB_LD_CastleIsland_DecoMesh_001_Start
+    400004: PB_LD_CastleIsland_DecoMesh_002_InteriorLeft
+    400006: PB_LD_CastleIsland_DecoMesh_003_ExteriorTowerLeft
+    400008: PB_LD_CastleIsland_DecoMesh_004_UpstairsLeft
+    400010: PB_LD_CastleIsland_DecoMesh_005_BackGarden
+    400012: PB_LD_CastleIsland_DecoMesh_006_BackGround
+    400014: PB_LD_CastleIsland_DecoMesh_007_Bridge
+    400016: PB_LD_CastleIsland_DecoMesh_008_UpstairsRight
+    400018: PB_LD_CastleIsland_DecoMesh_009_ExteriorTowerRight
+    400020: PB_LD_CastleIsland_DecoMesh_010_InteriorRight
+    400022: PB_LD_CastleIsland_DecoMesh_011_Ruins
+    400024: PB_LD_CastleIsland_DecoMesh_012_End
+    400026: Camera_target
+    2100000: PB_LD_Atlas
+    2100002: No Name
+    2300000: PB_LD_CastleIsland_DecoMesh_001_Start
+    2300002: PB_LD_CastleIsland_DecoMesh_002_InteriorLeft
+    2300004: PB_LD_CastleIsland_DecoMesh_003_ExteriorTowerLeft
+    2300006: PB_LD_CastleIsland_DecoMesh_004_UpstairsLeft
+    2300008: PB_LD_CastleIsland_DecoMesh_005_BackGarden
+    2300010: PB_LD_CastleIsland_DecoMesh_006_BackGround
+    2300012: PB_LD_CastleIsland_DecoMesh_007_Bridge
+    2300014: PB_LD_CastleIsland_DecoMesh_008_UpstairsRight
+    2300016: PB_LD_CastleIsland_DecoMesh_009_ExteriorTowerRight
+    2300018: PB_LD_CastleIsland_DecoMesh_010_InteriorRight
+    2300020: PB_LD_CastleIsland_DecoMesh_011_Ruins
+    2300022: PB_LD_CastleIsland_DecoMesh_012_End
+    2300024: Camera_target
+    3300000: PB_LD_CastleIsland_DecoMesh_001_Start
+    3300002: PB_LD_CastleIsland_DecoMesh_002_InteriorLeft
+    3300004: PB_LD_CastleIsland_DecoMesh_003_ExteriorTowerLeft
+    3300006: PB_LD_CastleIsland_DecoMesh_004_UpstairsLeft
+    3300008: PB_LD_CastleIsland_DecoMesh_005_BackGarden
+    3300010: PB_LD_CastleIsland_DecoMesh_006_BackGround
+    3300012: PB_LD_CastleIsland_DecoMesh_007_Bridge
+    3300014: PB_LD_CastleIsland_DecoMesh_008_UpstairsRight
+    3300016: PB_LD_CastleIsland_DecoMesh_009_ExteriorTowerRight
+    3300018: PB_LD_CastleIsland_DecoMesh_010_InteriorRight
+    3300020: PB_LD_CastleIsland_DecoMesh_011_Ruins
+    3300022: PB_LD_CastleIsland_DecoMesh_012_End
+    3300024: Camera_target
+    4300000: PB_LD_CastleIsland_DecoMesh_010_InteriorRight
+    4300002: PB_LD_CastleIsland_DecoMesh_001_Start
+    4300004: PB_LD_CastleIsland_DecoMesh_012_End
+    4300006: PB_LD_CastleIsland_DecoMesh_006_BackGround
+    4300008: PB_LD_CastleIsland_DecoMesh_005_BackGarden
+    4300010: PB_LD_CastleIsland_DecoMesh_003_ExteriorTowerLeft
+    4300012: PB_LD_CastleIsland_DecoMesh_004_UpstairsLeft
+    4300014: PB_LD_CastleIsland_DecoMesh_007_Bridge
+    4300016: PB_LD_CastleIsland_DecoMesh_009_ExteriorTowerRight
+    4300018: PB_LD_CastleIsland_DecoMesh_008_UpstairsRight
+    4300020: PB_LD_CastleIsland_DecoMesh_002_InteriorLeft
+    4300022: PB_LD_CastleIsland_DecoMesh_011_Ruins
+    4300024: Camera_target
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
