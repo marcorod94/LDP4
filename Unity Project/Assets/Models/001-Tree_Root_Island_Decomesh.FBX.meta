@@ -1,0 +1,149 @@
+fileFormatVersion: 2
+guid: 13335d94f393a0f4f92127486b0c1590
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: PB_LD_TreeRootIsland_DecoMesh_001_Start
+    100004: PB_LD_TreeRootIsland_DecoMesh_002_Middle
+    100006: PB_LD_TreeRootIsland_DecoMesh_003_End
+    100008: PB_LD_TreeRootIsland_DecoMesh_004_TreeStart
+    100010: PB_LD_TreeRootIsland_DecoMesh_005_TreeEnd
+    100012: PB_LD_TreeRootIsland_DecoMesh_006_TreeMiddle
+    100014: PB_LD_TreeRootIsland_DecoMesh_007_Camp
+    100016: PB_LD_TreeRootIsland_DecoMesh_008_BackGroundFirst
+    100018: PB_LD_TreeRootIsland_DecoMesh_009_BackGroundSecond
+    100020: PB_LD_TreeRootIsland_DecoMesh_010_GroundFirst
+    100022: PB_LD_TreeRootIsland_DecoMesh_011_GroundSecond
+    400000: //RootNode
+    400002: PB_LD_TreeRootIsland_DecoMesh_001_Start
+    400004: PB_LD_TreeRootIsland_DecoMesh_002_Middle
+    400006: PB_LD_TreeRootIsland_DecoMesh_003_End
+    400008: PB_LD_TreeRootIsland_DecoMesh_004_TreeStart
+    400010: PB_LD_TreeRootIsland_DecoMesh_005_TreeEnd
+    400012: PB_LD_TreeRootIsland_DecoMesh_006_TreeMiddle
+    400014: PB_LD_TreeRootIsland_DecoMesh_007_Camp
+    400016: PB_LD_TreeRootIsland_DecoMesh_008_BackGroundFirst
+    400018: PB_LD_TreeRootIsland_DecoMesh_009_BackGroundSecond
+    400020: PB_LD_TreeRootIsland_DecoMesh_010_GroundFirst
+    400022: PB_LD_TreeRootIsland_DecoMesh_011_GroundSecond
+    2100000: PB_LD_Atlas
+    2100002: tron 2
+    2100004: 09 - Default
+    2300000: PB_LD_TreeRootIsland_DecoMesh_001_Start
+    2300002: PB_LD_TreeRootIsland_DecoMesh_002_Middle
+    2300004: PB_LD_TreeRootIsland_DecoMesh_003_End
+    2300006: PB_LD_TreeRootIsland_DecoMesh_004_TreeStart
+    2300008: PB_LD_TreeRootIsland_DecoMesh_005_TreeEnd
+    2300010: PB_LD_TreeRootIsland_DecoMesh_006_TreeMiddle
+    2300012: PB_LD_TreeRootIsland_DecoMesh_007_Camp
+    2300014: PB_LD_TreeRootIsland_DecoMesh_008_BackGroundFirst
+    2300016: PB_LD_TreeRootIsland_DecoMesh_009_BackGroundSecond
+    2300018: PB_LD_TreeRootIsland_DecoMesh_010_GroundFirst
+    2300020: PB_LD_TreeRootIsland_DecoMesh_011_GroundSecond
+    3300000: PB_LD_TreeRootIsland_DecoMesh_001_Start
+    3300002: PB_LD_TreeRootIsland_DecoMesh_002_Middle
+    3300004: PB_LD_TreeRootIsland_DecoMesh_003_End
+    3300006: PB_LD_TreeRootIsland_DecoMesh_004_TreeStart
+    3300008: PB_LD_TreeRootIsland_DecoMesh_005_TreeEnd
+    3300010: PB_LD_TreeRootIsland_DecoMesh_006_TreeMiddle
+    3300012: PB_LD_TreeRootIsland_DecoMesh_007_Camp
+    3300014: PB_LD_TreeRootIsland_DecoMesh_008_BackGroundFirst
+    3300016: PB_LD_TreeRootIsland_DecoMesh_009_BackGroundSecond
+    3300018: PB_LD_TreeRootIsland_DecoMesh_010_GroundFirst
+    3300020: PB_LD_TreeRootIsland_DecoMesh_011_GroundSecond
+    4300000: PB_LD_TreeRootIsland_DecoMesh_002_Middle
+    4300002: PB_LD_TreeRootIsland_DecoMesh_006_TreeMiddle
+    4300004: PB_LD_TreeRootIsland_DecoMesh_011_GroundSecond
+    4300006: PB_LD_TreeRootIsland_DecoMesh_009_BackGroundSecond
+    4300008: PB_LD_TreeRootIsland_DecoMesh_008_BackGroundFirst
+    4300010: PB_LD_TreeRootIsland_DecoMesh_010_GroundFirst
+    4300012: PB_LD_TreeRootIsland_DecoMesh_003_End
+    4300014: PB_LD_TreeRootIsland_DecoMesh_005_TreeEnd
+    4300016: PB_LD_TreeRootIsland_DecoMesh_004_TreeStart
+    4300018: PB_LD_TreeRootIsland_DecoMesh_001_Start
+    4300020: PB_LD_TreeRootIsland_DecoMesh_007_Camp
+    7400000: Take 001
+    9500000: //RootNode
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 1
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 180
+    normalImportMode: 0
+    tangentImportMode: 0
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
