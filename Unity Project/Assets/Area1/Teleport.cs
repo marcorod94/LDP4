@@ -5,12 +5,13 @@ using UnityEngine;
 public class Teleport : MonoBehaviour
 {
 
-    public Vector3 destination;
+    public Transform destination;
     
 
     void OnTriggerEnter(Collider collider)
     {
         Debug.Log("Teleport");
-        collider.gameObject.transform.position = destination;
+        Vector3 offset = collider.gameObject.transform.position - gameObject.transform.position;
+        collider.gameObject.transform.position = destination.transform.position + offset;
     }
 }
