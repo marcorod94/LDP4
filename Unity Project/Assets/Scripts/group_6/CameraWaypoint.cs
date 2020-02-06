@@ -13,7 +13,7 @@ public class CameraWaypoint : MonoBehaviour
     {
         if(collision.gameObject.GetComponent<ThirdPersonCharacter>() != null)
         {
-            GameObject.FindWithTag("ThirdPersonCharacter").transform.position = cameraPosition;
+            GameObject.FindWithTag("MainCamera").transform.position = cameraPosition;
         }
     }
 
