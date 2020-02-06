@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
+using UnityStandardAssets.Characters.ThirdPerson;
 
 public class CameraWaypoint : MonoBehaviour
 {
@@ -10,9 +11,9 @@ public class CameraWaypoint : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {
-        if(nextWaypoint != null && collision.gameObject.GetComponent<Camera>() != null)
+        if(collision.gameObject.GetComponent<ThirdPersonCharacter>() != null)
         {
-            collision.gameObject.transform.position = transform.position;
+            GameObject.FindWithTag("ThirdPersonCharacter").transform.position = cameraPosition;
         }
     }
 
