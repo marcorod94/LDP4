@@ -4261,6 +4261,7 @@ GameObject:
   m_Component:
   - component: {fileID: 798161299}
   - component: {fileID: 798161300}
+  - component: {fileID: 798161301}
   m_Layer: 0
   m_Name: BackLight
   m_TagString: Untagged
@@ -4292,7 +4293,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 9
   m_Type: 1
-  m_Color: {r: 0, g: 0.16082233, b: 0.8773585, a: 1}
+  m_Color: {r: 0.5803922, g: 0.65092486, b: 1, a: 1}
   m_Intensity: 1.5
   m_Range: 19.014189
   m_SpotAngle: 17.603664
@@ -4342,6 +4343,19 @@ Light:
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &798161301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 798161298}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34cf401af9d0ce340b75030ec3559b97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  endColor: {r: 0, g: 0.16078432, b: 0.87843144, a: 0}
 --- !u!4 &830957845 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 6963eac72ff833746925740dcb21e287,
@@ -6076,6 +6090,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1194258273}
   - component: {fileID: 1194258274}
+  - component: {fileID: 1194258275}
   m_Layer: 0
   m_Name: Directional Light
   m_TagString: Untagged
@@ -6107,7 +6122,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 9
   m_Type: 1
-  m_Color: {r: 0.24857599, g: 0.9245283, b: 0.8924416, a: 1}
+  m_Color: {r: 1, g: 0.9231391, b: 0.7122642, a: 1}
   m_Intensity: 1.5
   m_Range: 19.014189
   m_SpotAngle: 17.603664
@@ -6157,6 +6172,19 @@ Light:
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &1194258275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1194258272}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34cf401af9d0ce340b75030ec3559b97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  endColor: {r: 0.24705884, g: 0.92549026, b: 0.8941177, a: 0}
 --- !u!4 &1200469864 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 4fd84346c406bb748810aec9280aa776,
