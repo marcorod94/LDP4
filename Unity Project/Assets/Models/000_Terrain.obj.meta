@@ -9,6 +9,7 @@ ModelImporter:
     400002: Terrain_Low
     2100000: defaultMat
     2100002: 08___Default
+    2100004: Terrain_LowMat
     2300000: Terrain_Low
     3300000: Terrain_Low
     4300000: Terrain_Low
