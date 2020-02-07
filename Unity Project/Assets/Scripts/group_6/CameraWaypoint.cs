@@ -12,7 +12,7 @@ public class CameraWaypoint : MonoBehaviour
     public CameraWaypoint nextWaypoint;
     public bool revertCameraToOriginalSettings;
     private Vector3 originalLocalPosition = Vector3.zero;
-    private Vector4 originalOffset = Vector3.zero;
+    private Vector3 originalOffset = Vector3.zero;
 
     private void OnTriggerEnter(Collider collision)
     {
