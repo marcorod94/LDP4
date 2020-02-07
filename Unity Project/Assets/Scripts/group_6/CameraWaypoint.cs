@@ -12,6 +12,7 @@ public class CameraWaypoint : MonoBehaviour
     public CameraWaypoint nextWaypoint;
     public bool revertCameraToOriginalSettings;
     private Vector3 originalLocalPosition = Vector3.zero;
+    private Vector4 originalOffset = Vector3.zero;
 
     private void OnTriggerEnter(Collider collision)
     {
@@ -25,6 +26,8 @@ public class CameraWaypoint : MonoBehaviour
                 cam.GetComponent<GenericMoveCamera>().enabled = true;
                 cam.GetComponent<LookAt>().enabled = false;
                 if(originalLocalPosition != Vector3.zero) cam.transform.Find("Main Camera").localPosition = originalLocalPosition;
+                if (originalOffset != Vector3.zero) cam.GetComponent<FollowTarget>().offset = originalOffset;
+
             }
             else
             {
@@ -34,6 +37,7 @@ public class CameraWaypoint : MonoBehaviour
                 cam.transform.position = cameraPosition;
                 cam.transform.localPosition = cameraPosition;
 
+                originalOffset = cam.GetComponent<FollowTarget>().offset;
                 cam.GetComponent<FollowTarget>().offset = cameraPosition - collision.gameObject.transform.position;
                 cam.GetComponent<GenericMoveCamera>().enabled = false;
                 cam.GetComponent<LookAt>().enabled = true;
