@@ -3,17 +3,22 @@ using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 using UnityStandardAssets.Characters.ThirdPerson;
+using UnityStandardAssets.Utility;
 
 public class CameraWaypoint : MonoBehaviour
 {
     public Vector3 cameraPosition;
     public CameraWaypoint nextWaypoint;
 
-    void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider collision)
     {
-        if(collision.gameObject.GetComponent<ThirdPersonCharacter>() != null)
+        if (collision.gameObject.GetComponent<ThirdPersonCharacter>() != null)
         {
-            GameObject.FindWithTag("MainCamera").transform.position = cameraPosition;
+            GameObject cam = GameObject.FindWithTag("MainCamera");
+            cam.transform.LookAt(collision.transform);
+            cam.GetComponent<FollowTarget>().offset = cameraPosition - collision.gameObject.transform.position;
+            //cam.transform.Find("Main Camera").transform.LookAt(collision.transform);
+
         }
     }
 
