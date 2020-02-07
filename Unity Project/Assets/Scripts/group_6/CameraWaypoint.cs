@@ -10,16 +10,28 @@ public class CameraWaypoint : MonoBehaviour
 {
     public Vector3 cameraPosition;
     public CameraWaypoint nextWaypoint;
+    public bool revertCameraToOriginalSettings;
 
     private void OnTriggerEnter(Collider collision)
     {
         if (collision.gameObject.GetComponent<ThirdPersonCharacter>() != null)
         {
             GameObject cam = GameObject.FindWithTag("MainCamera");
-            cam.transform.LookAt(collision.transform);
-            cam.GetComponent<FollowTarget>().offset = cameraPosition - collision.gameObject.transform.position;
-            cam.GetComponent<GenericMoveCamera>().enabled = false;
-            cam.GetComponent<LookAt>().enabled = true;
+
+
+            if (revertCameraToOriginalSettings)
+            {
+                cam.GetComponent<GenericMoveCamera>().enabled = true;
+                cam.GetComponent<LookAt>().enabled = false;
+            }
+            else
+            {
+                cam.transform.LookAt(collision.transform);
+                cam.transform.position = cameraPosition;
+                cam.GetComponent<FollowTarget>().offset = cameraPosition - collision.gameObject.transform.position;
+                cam.GetComponent<GenericMoveCamera>().enabled = false;
+                cam.GetComponent<LookAt>().enabled = true;
+            }
         }
     }
 
