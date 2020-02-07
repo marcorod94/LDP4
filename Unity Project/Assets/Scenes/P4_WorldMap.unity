@@ -4715,7 +4715,12 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: 26e82a3926bae9d4c8e5425bddde4840,
         type: 3}
       propertyPath: m_Name
-      value: Area1-Optimized07
+      value: 002-Area_1_Decomesh
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 26e82a3926bae9d4c8e5425bddde4840,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 26e82a3926bae9d4c8e5425bddde4840,
         type: 3}
@@ -4772,15 +4777,45 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -3456412381901892815, guid: 26e82a3926bae9d4c8e5425bddde4840,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: -2530895045393947740, guid: 26e82a3926bae9d4c8e5425bddde4840,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: -2088362652617690379, guid: 26e82a3926bae9d4c8e5425bddde4840,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -2088362652617690379, guid: 26e82a3926bae9d4c8e5425bddde4840,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: -686408174954333966, guid: 26e82a3926bae9d4c8e5425bddde4840,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 4348104222940892689, guid: 26e82a3926bae9d4c8e5425bddde4840,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 8049936572224224972, guid: 26e82a3926bae9d4c8e5425bddde4840,
         type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8049936572224224972, guid: 26e82a3926bae9d4c8e5425bddde4840,
         type: 3}
-      propertyPath: m_IsActive
-      value: 0
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 26e82a3926bae9d4c8e5425bddde4840, type: 3}
@@ -11517,7 +11552,7 @@ PrefabInstance:
     - target: {fileID: 4542372766747406905, guid: 71c88a399cab152409cc14b1bf3cd516,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -76.04
+      value: -76.05
       objectReference: {fileID: 0}
     - target: {fileID: 4542372766747406905, guid: 71c88a399cab152409cc14b1bf3cd516,
         type: 3}
