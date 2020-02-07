@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using Assets.Elenesski.Camera.Utilities;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
@@ -17,8 +18,8 @@ public class CameraWaypoint : MonoBehaviour
             GameObject cam = GameObject.FindWithTag("MainCamera");
             cam.transform.LookAt(collision.transform);
             cam.GetComponent<FollowTarget>().offset = cameraPosition - collision.gameObject.transform.position;
-            //cam.transform.Find("Main Camera").transform.LookAt(collision.transform);
-
+            cam.GetComponent<GenericMoveCamera>().enabled = false;
+            cam.GetComponent<LookAt>().enabled = true;
         }
     }
 

@@ -13,7 +13,6 @@ namespace UnityStandardAssets.Utility
         private void LateUpdate()
         {
             transform.position = target.position + offset;
-            transform.LookAt(target);
         }
     }
 }
