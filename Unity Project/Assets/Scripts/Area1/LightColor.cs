@@ -6,7 +6,7 @@ public class LightColor : MonoBehaviour
 {
 
     public Color endColor;
-    public float fadeTime = 2.5f;
+    public float fadeTime = 4f;
     Color selection;
 
     private float tColor;
