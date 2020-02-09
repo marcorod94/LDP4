@@ -8,7 +8,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: EthanWhite
-    second: {fileID: 2100000, guid: cea43ca999ebb934c81f53019125df89, type: 2}
+    second: {fileID: 2100000, guid: e143a06e170570a4396dda029a678f94, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
